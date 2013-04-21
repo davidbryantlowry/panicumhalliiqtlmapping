@@ -1,5 +1,11 @@
-#This is an example of the workflow for QTL analysis in rQTL for 
-#phenotypes measured in the FIL2xHAL2-11 F2 mapping population
+------------------------------------------------------------------------
+Author: David Lowry
+Email: davidbryantlowry@gmail.com
+
+This is an example of the workflow for QTL analysis in R/qtl for 
+phenotypes measured in the FIL2xHAL2-11 F2 mapping population
+------------------------------------------------------------------------
+
 
 #Loading rQTL library
 library(qtl)
