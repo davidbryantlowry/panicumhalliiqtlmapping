@@ -16,7 +16,7 @@ data <- read.cross("csv", ".", "Rqtl_Morph_Cohort_3_20_13.csv")
 #Seperating markers that are in the same location
 data<-jittermap(data)
 
-#Building covariate for planting cohort. Did not use covariates in final analysis.
+#Building covariate for planting cohort. Only used covariates in final analysis for flowering time.
 block1<-as.vector(data$pheno$Cohort1)
 block2<-as.vector(data$pheno$Cohort2)
 block3<-as.vector(data$pheno$Cohort3)
